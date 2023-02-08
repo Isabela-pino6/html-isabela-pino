@@ -2,44 +2,35 @@ document.addEventListener("DOMContentLoaded"), () => {
   const cardsAdj =  [
     {
       name: 'descarga',
-      img:'img/descarga.jpg'
-     }
-
+      img:'imagenes/descarga.jpg'
+     },
      {
       name: 'fe',
-      img:'img/fe.jpg'
-     }
-
+      img:'imagenes/fe.jpg'
+     },
      {
       name: 'feid',
-      img:'img/feid.jpg'
-     }
-
+      img:'imagenes/feid.jpg'
+     },
      {
       name: 'feidd',
-      img:'img/feidd.jpg'
-     }
-
+      img:'imagenes/feidd.jpg'
+     },
      {
-      name: 'fe',
-      img:'img/fe.jpg'
-     }
-
+      name: 'feiid',
+      img:'imagenes/feiid.jpg'
+     },
      {
-      name: 'fe',
-      img:'img/fe.jpg'
-     }
-
+      name: 'ferxxoo',
+      img:'imagenes/ferxxoo.jpg'
+     },
      {
-      name: 'fe',
-      img:'img/fe.jpg'
-     }
-
+      name: 'imagen',
+      img:'imagenes/imagen.jpg'
+     },
      {
-      name: 'fe',
-      img:'img/fe.jpg'
-     }
-
-  ] 
-
+      name: 'salomon',
+      img:'imagenes/salomon.jpg'
+     },
+  ];
 });
