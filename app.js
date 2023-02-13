@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded"), () => {
     {
       name: 'descarga',
       img:'imagenes/descarga.jpg'
-     },
+    },
      {
       name: 'fe',
       img:'imagenes/fe.jpg'
@@ -34,3 +34,18 @@ document.addEventListener("DOMContentLoaded"), () => {
      },
   ];
 });
+
+const cuadricula = document.querySelector(".cuadricula");
+const resultado = document.querySelector("#resultado");
+var cartasEscogidas = [];
+var cartasEscogidasId = [];
+var cartasGanadas = [];
+
+function crearTablero (){
+  for (let i = 0; i < cardAdj.length; i++) {
+
+    var carta = document.createElement('img');
+    carta.setAttribute('src', 'imagenes/reverso.png');
+
+    
+}
