@@ -47,5 +47,11 @@ function crearTablero (){
     var carta = document.createElement('img');
     carta.setAttribute('src', 'imagenes/reverso.png');
 
-    
-}
+    carta.setAttribute('data-id', i);
+    carta.addEventListenner('click', voltearCarta);
+
+    cuadricula.appendChild(carta);
+     
+    }
+ }   
+});
