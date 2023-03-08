@@ -51,7 +51,15 @@ function crearTablero (){
     carta.addEventListenner('click', voltearCarta);
 
     cuadricula.appendChild(carta);
-     
-    }
- }   
+
+    function voltearCarta() {
+      var cardId = this.getAttribute("data-id");
+      cartasEscogidas.push(cardAdj[cardId].name);
+      cartasEscogidasId.push(cardId);
+      if (cartasEscogidas.length === 2) {
+        setTimeout(verificarPareja, 1000);
+      }
+    } 
+
+  crearTablero();
 });
